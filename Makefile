@@ -16,7 +16,7 @@ help: ## List all available make targets
 
 .PHONY: dev-generate-images
 dev-generate-images: ## Generates images used for testing
-	for filetype in bmp gif jpeg jpg pdf png; do \
+	for filetype in bmp gif ico jpeg jpg pdf png 🌬.png webp; do \
 		sed "s/image.svg/image.$${filetype}/g" media/image.svg | convert - media/image.$${filetype}; \
 	done
 	tar -cvf media/archive.tar media/image.svg
