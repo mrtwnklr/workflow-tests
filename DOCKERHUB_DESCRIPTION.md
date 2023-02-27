@@ -166,6 +166,12 @@ Docker test repository: [mrtwnklr/workflow-tests](https://hub.docker.com/r/mrtwn
 
   ![media/image.webp](media/image.webp)
 
+- ico image (override of `image-extensions` in [publish-dockerhub-description.yaml](.github/workflows/publish-dockerhub-description.yaml)):
+
+  `![media/image.ico](media/image.ico)`
+
+  ![media/image.ico](media/image.ico)
+
 - image without alternate text:
 
   `![](media/image.svg)`
